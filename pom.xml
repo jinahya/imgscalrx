@@ -171,7 +171,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.9.1</version>
+        <!--<version>2.9.1</version>-->
+        <configuration>
+          <links>
+            <link>http://www.thebuzzmedia.com/downloads/software/imgscalr/javadoc/</link>
+          </links>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
