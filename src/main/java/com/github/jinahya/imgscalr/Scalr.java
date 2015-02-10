@@ -38,12 +38,15 @@ public strictfp class Scalr extends org.imgscalr.Scalr {
      * @param scalingMethod
      * @param targetWidth
      * @param targetHeight
-     * @param magnificationFactor the magnification factor.
-     * @param horizontalWeigth the horizontal weight
-     * @param verticalWeight the vertical weight
+     * @param magnificationFactor the magnification factor. {@code .0f} for
+     * in-box, {@code 1.0f} for fill all.
+     * @param horizontalWeigth the horizontal weight. {@code .0f} for left
+     * align, {@code 1.0f} for right align.
+     * @param verticalWeight the vertical weight. {@code .0f} for top align,
+     * {@code 1.0f} for bottom align.
      * @param ops
      *
-     * @return
+     * @return a resized image.
      */
     public static BufferedImage resize(final BufferedImage sourceImage,
                                        final Method scalingMethod,
