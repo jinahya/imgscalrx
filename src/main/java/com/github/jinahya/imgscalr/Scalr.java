@@ -33,17 +33,19 @@ public strictfp class Scalr extends org.imgscalr.Scalr {
 
 
     /**
+     * Resizes specified image preserving the proportion and relocates by given
+     * arguments.
      *
-     * @param sourceImage
-     * @param scalingMethod
-     * @param targetWidth
-     * @param targetHeight
-     * @param magnificationFactor the magnification factor. {@code .0f} for
-     * in-box, {@code 1.0f} for fill all.
-     * @param horizontalWeigth the horizontal weight. {@code .0f} for left
-     * align, {@code 1.0f} for right align.
-     * @param verticalWeight the vertical weight. {@code .0f} for top align,
-     * {@code 1.0f} for bottom align.
+     * @param sourceImage the source image to resize.
+     * @param scalingMethod the scaling method.
+     * @param targetWidth the target width.
+     * @param targetHeight the target height.
+     * @param magnificationFactor the magnification factor. {@code 1.0f} for
+     * fitting into the box, {@code 1.0f} for fit to max width or height.
+     * @param horizontalWeigth the horizontal weight. {@code 1.0f} for aligning
+     * to the left align, {@code 1.0f} for aligning to the right.
+     * @param verticalWeight the vertical weight. {@code 1.0f} for aligning to
+     * the top, {@code 1.0f} for aligning to the bottom.
      * @param ops
      *
      * @return a resized image.
