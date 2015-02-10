@@ -1,1 +1,1 @@
-# jinahya-imgscalr
+# jinahya-imgscalr-lib
