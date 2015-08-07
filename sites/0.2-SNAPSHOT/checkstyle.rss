@@ -19,9 +19,9 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>jinahya-imgscalr-lib - Checkstyle report</title>
-    <link>http://jinahya.github.io/jinahya-imgscalr-lib/sites/0.2-SNAPSHOT</link>
-    <description>jinahya-imgscalr-lib - Checkstyle report</description>
+    <title>imgscalrx - Checkstyle report</title>
+    <link>http://jinahya.github.io/imgscalrx/sites/0.2-SNAPSHOT</link>
+    <description>imgscalrx - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
@@ -30,9 +30,9 @@ under the License.
              Warnings: 0,
              Infos: 0
       </title>
-            <link>http://jinahya.github.io/jinahya-imgscalr-lib/sites/0.2-SNAPSHOT/checkstyle.html</link>
+            <link>http://jinahya.github.io/imgscalrx/sites/0.2-SNAPSHOT/checkstyle.html</link>
       <description>
-        <p>Click <a href="http://jinahya.github.io/jinahya-imgscalr-lib/sites/0.2-SNAPSHOT/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="http://jinahya.github.io/imgscalrx/sites/0.2-SNAPSHOT/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://jinahya.github.io/jinahya-imgscalr-lib/sites/0.2-SNAPSHOT/checkstyle.html#com.github.jinahya.imgscalr.Scalr.java">com/github/jinahya/imgscalr/Scalr.java</a>
+                  <a href="http://jinahya.github.io/imgscalrx/sites/0.2-SNAPSHOT/checkstyle.html#com.github.jinahya.imgscalr.Scalr.java">com/github/jinahya/imgscalr/Scalr.java</a>
                 </td>
                 <td>
                   0
