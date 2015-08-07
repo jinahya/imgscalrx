@@ -1,4 +1,4 @@
-# jinahya-imgscalr-lib
+# imgscalrx
 
 ## versions
 |version|site|apidocs|notes|
